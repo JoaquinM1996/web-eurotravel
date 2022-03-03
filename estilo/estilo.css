@@ -1,0 +1,121 @@
+/* HEADER */
+.nombre-header {
+    text-align: center;
+    font-size: 60px;
+}
+
+header {
+    background: linear-gradient(90deg, rgba(63,135,201,1) 32%, rgba(32,219,223,1) 100%);
+}
+/* FIN HEADER */
+
+/* NAV */
+nav {
+    border-bottom: solid 2px rgba(63,135,201,1)
+}
+
+#navbarNavDropdown {
+    justify-content: center;
+}
+/* FIN DE NAV */ 
+
+/* COMIENZO MAIN INDEX */
+.carousel {
+    width: 85%;
+    margin: auto;
+}
+
+.carousel-item img {
+    border-radius: 5px;
+}
+
+#carouselExampleControls {
+    margin-top: 20px;
+}
+
+.carousel-item img {
+    width: 95%;
+    height: 300px;
+}
+
+.carousel {
+    width: 100%;
+}
+
+.trayectoria-index {
+    margin: auto;
+    margin-top: 80px;
+    width: 100%;
+    text-align: justify;
+    text-align: center;
+    border-radius: 5px;
+    background: linear-gradient(90deg, rgba(63,135,201,1) 32%, rgba(32,219,223,1) 100%);
+    padding: 5px;
+}
+/* FIN MAIN INDEX */
+
+/* COMIENZO MAIN NOSOTROS */ 
+.nosotros-texto {
+    text-align: justify;
+    
+}
+
+.nosotros-imagen img {
+    width: 300px;
+    height: auto;
+    border-radius: 3px;
+}
+.nosotros-imagen {
+    text-align: center;
+}
+/* FIN DE MAIN NOSOTROS */ 
+
+/* COMIENZO FOOTER */ 
+footer {
+    margin-top: 10px;
+    border-top: solid 3px rgba(63,135,201,1)
+}
+
+.nombre-foot {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.redes-foot {
+    text-align: end;
+}
+/* FIN FOOTER */ 
+
+@media screen and (min-width: 900px){
+
+.carousel-item img {
+    height: 550px;
+}
+
+.nosotros-texto {
+    margin-top: 75px;
+    margin-left: 190px;
+    width: 500px;
+    height: auto;
+    padding: 20px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    border-radius: 5px;
+    background-color: lightgray;
+    box-shadow: 10px 5px 9px 1px rgba(0,0,0,0.33);
+}
+
+.nosotros-imagen img {
+    margin-left: 100px;
+    margin-bottom: 25px;
+    width: 550px;
+    height: 350px;
+    box-shadow: 10px 5px 9px 1px rgba(0,0,0,0.33);
+    border-radius: 3px;
+}
+
+.main-nosotros {
+    background-image: url(../assets/img/nosotros-oficina.jpg);
+}
+
+}
