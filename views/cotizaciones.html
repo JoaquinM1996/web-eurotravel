@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    
+        <title>Nosotros</title>
+    
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    
+        <link rel="stylesheet" href="../estilo/estilo.css">
+      </head>
+      <body>
+        <!--COMIENZO DE HEADER. Contiene logo-->
+        <header>
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-12">
+                        <h1 class="nombre-header">EuroTravel</h1>
+                    </div>
+                </div>
+            </div>
+        </header> 
+        <!--COMIENZO DE NAV-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+          <li class="nav-item active">
+            <a class="nav-link" href="../index.html">Inicio<span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-expanded="false">Destinos</a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <a class="dropdown-item" href="../views/barcelona.html">Barcelona</a>
+              <a class="dropdown-item" href="../views/londres.html">Londres</a>
+              <a class="dropdown-item" href="../views/roma.html">Roma</a>
+              <a class="dropdown-item" href="../views/paris.html">Paris</a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../views/cotizaciones.html">Cotizaciones</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../views/nosotros.html">Nosotros</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../views/contacto.html">Contacto</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <!-- Fin de nav y logo -->
+
+    <!-- Comienzo de main. Contiene formulario para dejar los datos y poder cotizar el viaje -->
+    <main>
+        <form action="#">
+            <h1 class="cotizacion__titulo">Solicitar cotizacion</h1>
+            <div class="cotizacion__items">
+                <label for="nom">Nombre</label><br>
+                <input type="text" name="nom"><br>
+
+                <label for="ape">Apellidos</label><br>
+                <input type="text" name="ape"><br>
+
+                <label for="correo">Email</label><br>
+                <input type="email" name="correo"><br>
+
+                <label for="tel">Telefono</label><br>
+                <input type="tel" name="tel"><br>
+
+                <label for="destino1">Barcelona</label>
+                <input type="checkbox" name="destino1"><br>
+
+                <label for="destino2">Londres</label>
+                <input type="checkbox" name="destino2"><br>
+
+                <label for="destino3">Roma</label>
+                <input type="checkbox" name="destino3"><br>
+
+                <label for="destino4">Paris</label>
+                <input type="checkbox" name="destino4"><br>
+
+                <label for="salida">Fecha de salida</label><br>
+                <input type="date" name="salida"><br>
+
+                <label for="regreso">Fecha de regreso</label><br>
+                <input type="date" class="regreso"><br>
+
+                <label for="gente">Personas</label><br>
+                <input type="number" min="1" max="10" name="gente"><br>
+
+                <input type="submit" value="Solicitar Cotizacion">
+            </div>
+        </form>
+    </main>
+    <!-- Fin de main -->
+
+    <!--COMIENZO DE FOOTER. Contiene logo y rrss-->
+    <footer>
+      <div class="container-fluid">
+          <div class="row">
+              <div class="col-12">
+                  <div class="nombre-foot">
+                      <h3>EuroTravel</h3>
+                  </div>
+          
+                  <div class="redes-foot">
+                      Facebook /
+                      Instagram
+                  </div>
+              </div>
+          </div>
+      </div>
+  </footer>
+
+  <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
+</body>
+</html>
